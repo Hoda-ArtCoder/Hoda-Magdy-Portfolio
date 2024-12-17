@@ -1,0 +1,227 @@
+html {
+    margin: 0;
+    background-color:  #3F4E4F;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    scroll-behavior: smooth;
+    padding: 0;
+    width: 100%;  
+}
+
+a {
+    color: #DCD7C9;
+    text-decoration: none;
+}
+
+a::after {
+    color: #DCD7C9;
+}
+
+.navbar a:hover {
+    color: #A27B5C;
+
+}
+
+/* navbar */
+.navbar{
+    background-color:#2C3639;
+    height: 65px;
+    width: 100%;
+    border-top: 20px dashed #3F4E4F;
+    margin-bottom: 30px;
+    letter-spacing :0.0625em;
+    font-size :1.60rem;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    font-family: "B612", sans-serif;
+    z-index: 1;
+    text-align: center;
+
+}
+
+
+ul{
+    list-style:none;
+}
+li{
+    display: inline;
+    margin : 20px ;
+}
+li:hover {
+    color: #DCD7C9;
+}
+
+/* Grid Layout */
+.grid-container {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-areas:
+    'tooltip-top-left profile-image tooltip-top-right'
+    '. profile-image .'
+    'tooltip-bottom-left profile-image tooltip-bottom-right';
+    grid-template-columns: 2fr 1fr 2r;
+    gap: 50px;
+    text-align: center;
+    border: #3F4E4F dashed 50px;
+    background-color: #2C3639 ;
+    gap: 90px 50px;
+    margin: auto;
+    height: 650px;
+    margin-bottom: 30px;
+  }
+  
+  .profile-image {
+    outline: 10px dashed #3F4E4F;
+    border: #3F4E4F dashed 15px;
+    height: 500px;
+    grid-area: profile-image;
+    margin: auto;
+    outline-offset: 15px;
+}
+.first-section-container{
+    margin-bottom: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.tooltip {
+    color: #870000;
+    border: #A27B5C 5px solid;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 1.5em;
+    position: relative;
+    width: 80%;
+  }
+
+
+.skills-section {
+    border: 20px dashed #3F4E4F;
+    background-color: #2C3639;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    right: 5px;
+    color: #DCD7C9;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.skills-list {
+    width: 70%;
+    margin: auto;
+
+}
+
+.skills-section-title {
+    font-family: "B612", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3rem;
+    font-weight: bold;
+    color:#DCD7C9;
+}
+
+.skill-logo {
+    width: 90px;
+    border-radius: 50%;
+    outline-offset: 15px;
+    outline: 10px dashed #3F4E4F;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+
+ .skills-list li a
+{
+    color: #DCD7C9;
+}
+.skills-list li a :hover
+{
+    color: #A27B5C;
+}
+
+
+.accounts{
+    border: 20px dashed #3F4E4F;
+    background-color: #2C3639;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    left: 5px;
+    color: #DCD7C9;
+    text-align: center;
+    float: right;
+}
+.fa-brands:hover {
+
+    font-size: 5rem;
+}
+.fa-brands{
+    transition: font-size 0.3s ease; /* Smooth transition over 0.3 seconds */
+
+}
+.hoppies{
+    border: 20px dashed #3F4E4F;
+    background-color: #2C3639;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+    color: #DCD7C9;
+    text-align: center;
+    float: left;
+    margin-bottom: 50px;
+}
+.hoppies li {
+    display: block;
+    margin : 20px ;
+    text-align: left;
+
+}
+.hoppies li :hover {
+    color: #A27B5C;
+    font-size: 2rem;
+    transition: font-size 0.3s ease; /* Smooth transition over 0.3 seconds */
+
+}
+.hoppy-icon {
+    margin-left: 8px;
+    margin-right: 14px;
+}
+.hoppy-article{
+    font-family: "Poiret One", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #DCD7C9;
+    display: inline;
+}
+
+.footer {
+    background-color:#DCD7C9;
+    color: #870000;
+    height: 60px;
+    width: 100%;
+    border-bottom: 4px solid  #A27B5C;
+    border-top: 20px dashed #3F4E4F;
+    letter-spacing :0.0625em;
+    font-size :1.2rem;
+    overflow: hidden;
+    font-family: "B612", sans-serif;
+    text-align: right;
+    bottom: 0;
+    padding-top: 20px;
+    z-index: 1;
+}
